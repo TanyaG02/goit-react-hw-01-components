@@ -6,10 +6,11 @@ import user from './Profile/user';
 import data from './Statistics/data';
 import friends from './FriendsList/friends';
 import transactions from './Transaction/transactions';
+// import { GlobalStyle } from './GlobalStyles';
 
 export const App = () => {
   return (
-    <div>
+    <div className="container">
       <Profile
         username={user.username}
         tag={user.tag}
@@ -23,3 +24,4 @@ export const App = () => {
     </div>
   );
 };
+//  <GlobalStyle />
